@@ -2998,6 +2998,45 @@ input, select, textarea {
 			}
 
 		}
+		
+		@media (max-width: 800px) {
+		  .xl-text {
+		    font-size: 25px;
+		    
+		  }
+		 
+		  .video-points {
+		    padding: 0 !important;
+		    text-align: center;
+		  }
+		  .video-points .col-lg-4 {
+		    margin-bottom: 20px;
+		  }
+		}
+		
+		.text-primary {
+		color: red;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		}
+		
+		.vertical-decoration {
+		  top: 12%;
+		  width: 24px;
+		}
+		.details .vertical-decoration {
+		  top: 0;
+		  left: 0;
+		  width: 24px;
+		}
+		
+		.details-2 .vertical-decoration {
+		  top: 5%;
+		  right: 0;
+		  width: 24px;
+		}
+
+
 
 	header.major .date:before, header.major .date:after {
 		border-top-color: #eeeeee;
